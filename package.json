@@ -1,8 +1,8 @@
 {
-  "name": "react-native-firebase",
-  "version": "5.5.0",
-  "author": "Invertase <oss@invertase.io> (http://invertase.io)",
-  "description": "A well tested, feature rich Firebase implementation for React Native, supporting iOS & Android. Individual module support for Admob, Analytics, Auth, Crash Reporting, Cloud Firestore, Database, Dynamic Links, Functions, Messaging (FCM), Remote Config, Storage and more.",
+  "name": "react-native-firebase-with-android-x",
+  "version": "0.0.1",
+  "author": "Darko Maksimovic <darko.maksimovic@gmail.com> forked and changed the original library made by Invertase <oss@invertase.io> (http://invertase.io), under the same licence",
+  "description": "The fork of Invertase's react-native-firebase, with changes to support Android X until they finish version 6",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
