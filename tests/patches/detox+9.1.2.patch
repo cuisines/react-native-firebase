@@ -23,7 +23,7 @@ index 1e7358b..ac405e0 100644
 +
 +    configurations.all {
 +        resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.2'
-+        resolutionStrategy.force 'com.android.support:support-annotations:28.0.0'
++        resolutionStrategy.force 'androidx.annotation:annotation:1.0.0'
 +    }
  }
  
@@ -38,5 +38,5 @@ index 1e7358b..ac405e0 100644
 +    minReactNative46Implementation 'com.squareup.okhttp3:okhttp:3.12.1'
 +    minReactNative46Implementation 'com.squareup.okio:okio:1.15.0'
  
-     implementation('com.android.support.test.espresso:espresso-core:3.0.2', {
+     implementation('androidx.test.espresso:espresso-core:3.1.0', {
          exclude group: 'com.google.code.findbugs'
